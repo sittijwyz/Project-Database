@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.page-admin-container{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 100vh;
+    font-size: 100px;
+    align-self: center;
+}

@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Productimage{
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+}
+.Page-Menu{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    width: 100vw;
+    height: 100vh; 
+
+    background-color: rgb(231, 183, 128);
+}
+.Product-display{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.7fr 1fr 1fr;
+
+}
+.Products-box{
+    font-size: 19px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(156, 110, 50);
+    margin: 10px 90px 10px 90px;
+    border-radius: 10px;
+    height: 16rem;
+    padding: 10px;
+    color: rgb(248, 249, 250);
+
+}
+.Cart-display{
+    display: grid;
+    grid-template-rows: 1fr 5fr 0.5fr;
+    text-align: center;
+    justify-items: center;
+}
+.Cart-display >h1{
+    grid-row: 1/2;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+    width: 20rem;
+    color: rgb(236, 202, 158);
+    background-color: rgb(123, 88, 44);
+}
+.Cart-display > nav{
+    grid-row: 2/3;
+    z-index: 999;
+}
+.Cart-display >button{
+    grid-row: 3/4;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    text-align: center;
+    width: 20rem;
+    color: rgb(236, 202, 158);
+    background-color: rgb(123, 88, 44);
+    margin-bottom: 10px;
+    cursor:pointer;
+}
+.Grid-Cart-box{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 14px;
+}
+
+.btnselectMenu{
+    width: 5rem;
+    border-radius: 10px;
+    background-color: rgb(225, 171, 171);
+}
+.btn-switch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    font-size: 50px;
+    justify-items: center;
+    align-items: end;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    color: antiquewhite;
+    background: url("https://i.pinimg.com/564x/8a/87/01/8a87017c72b31e1c535c58f53c50daea.jpg");
+    overflow: hidden;
+}
+.btn-switch h1{
+    margin-top: 20px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.btn-type{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.gohome-menu{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-bottom: 25px;
+    margin-right:80%;
+}
+.inputPhone{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.inputPhone  input{
+    height: 100%;
+    color: rgb(41, 37, 29);
+    background-color: rgb(225, 171, 171);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 15px;
+    /* opacity: 0.8; */
+}
+.Cart-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Cart-image{
+    margin-left: 5px;
+    width: 85px;
+    height: 85px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    border-radius: 10px;
+}
+.Grid-Cart-box h4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.btn-remove{
+    display: flex;
+    align-items: center;
+    margin-left: 75%;
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.btn-remove button{
+    background-color: black;
+    color: antiquewhite;
+    width: 30px;
+    border-radius: 30px;
+}
+.block-quantity{
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.Cart-input{
+    text-align: center;
+    width: 2rem;
+    background-color: rgb(150, 117, 71);
+    color: aliceblue;
+    border: none;
+}
+.btnquantity{
+    background-color: rgb(117, 88, 19);
+    width: 30px;
+    height: 20px;
+    border-radius: 30px;
+    color: antiquewhite;
+}
+.box-menu-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 20rem;
+}
+.ADDtocart{
+    width: 10rem;
+    border-radius: 15px;
+    color: antiquewhite;
+    background-color: rgb(112, 90, 60);
+}
+.DR01{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white;
+}
+.DR02{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.DR03{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.DR04{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.DR05{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.DR06{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.BA01{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white;
+}
+.BA02{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.BA03{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.BA04{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.BA05{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}
+.BA06{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 100%;
+    height: 100%;
+    outline: 3px outset white
+}

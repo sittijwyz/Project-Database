@@ -1,0 +1,67 @@
+.RegisterEmp-page {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1.1fr 4fr;
+    grid-template-rows: auto 1fr auto;
+    background-color: rgb(233, 234, 234);
+  }
+  .navbar-RegisterEmp {
+    grid-column: 1/2;
+  }
+  .container-RegisterEmp-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 1fr 1fr;
+    grid-column: 2/3;
+  
+  }
+  #header-RegisterEmp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  #header-RegisterEmp p {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: cursive;
+    color: rgb(140, 140, 140);
+  }
+  .main-RegisterEmp{
+    grid-row: 2/4;
+    border: 1px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    background-color: rgb(220, 219, 219);
+    border-radius: 5px;
+  }
+  .input-register-emp{
+    height: 50px;
+    width: 20rem;
+    background-color: rgb(83, 53, 6);
+    font-size: 30px;
+    color: antiquewhite;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .form-register-emp{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .uselogin-emp{
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-register-emp button{
+    align-self: center;
+    width: 5rem;
+    height: 3rem;
+    font-size:20px;
+    color: aliceblue;
+    background-color: rgb(63, 129, 8);
+    cursor: pointer;
+    margin-top: 20px;
+  }
