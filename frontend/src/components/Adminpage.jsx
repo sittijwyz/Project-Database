@@ -9,4 +9,4 @@ function Adminpage() {
   )
 }
 
-export default Adminpage
+export default Adminpage;
